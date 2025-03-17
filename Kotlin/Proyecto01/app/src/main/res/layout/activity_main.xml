@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menú principal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/btnPractica1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Práctica 1 - Hola Mundo"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPractica2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Práctica 2 - Contador de Clicks"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPractica3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Práctica 3 - Contador con Temporizador"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPractica4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Práctica 4 - Historial en Archivo de Texto"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPractica5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Práctica 5 - Almacenamiento en SQLite"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPractica6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Práctica 6 - Historial en SQLite" />
+
+</LinearLayout>
